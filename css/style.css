@@ -40,6 +40,7 @@ body{
   padding: 3rem;
   background-color: red;
   justify-content: center;
+  position:fixed;
 }
 
  ul {
@@ -60,5 +61,12 @@ li a {
 
 li a:hover {
   color: #ccc;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 80%;
+
+  }
 }
 
